@@ -103,14 +103,29 @@ details:hover {
 }
 
 .mainbox0 {
-  background-color: #c0c0c0; /* classic gray */
+  width: 90%;
+  max-width: 600px;
+  margin: 2rem auto; /* centers the box with spacing from top */
+  background-color: #c0c0c0;
   border: 2px solid #fff;
   border-top-color: #dfdfdf;
   border-left-color: #dfdfdf;
   border-right-color: #808080;
   border-bottom-color: #808080;
   box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
-  padding: 1rem;
+}
+
+.titlebar {
+      background: linear-gradient(to right, #000080, #1084d0); /* classic blue gradient */
+  color: white;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #808080;
+  box-shadow: inset 1px 1px #000;
 }
 
 .mainbox1 {
