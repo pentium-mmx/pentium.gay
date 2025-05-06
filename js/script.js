@@ -10,6 +10,7 @@ document.querySelectorAll('.mainbox0, .mainbox1').forEach(box => {
         offsetY = e.clientY - box.offsetTop;
         box.style.position = 'absolute'; // Ensure the box is positioned absolutely
         box.style.zIndex = '1000'; // Bring the box to the front
+        document.body.style.userSelect = 'none'; // Prevent text selection while dragging
     });
 
     document.addEventListener('mousemove', (e) => {
@@ -21,5 +22,6 @@ document.querySelectorAll('.mainbox0, .mainbox1').forEach(box => {
 
     document.addEventListener('mouseup', () => {
         isDragging = false;
+        document.body.style.userSelect = ''; // Re-enable text selection
     });
 });
