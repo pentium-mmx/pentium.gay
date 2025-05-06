@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Windows Regular';
-    src: "css/Windows Regular.ttf";
+    font-family: 'Windows';
+    src: "css/Windows.ttf";
   }
 
 
@@ -253,8 +253,8 @@ h2 {
     margin: 0.5rem 0;
     text-indent: 10px;
     text-align: left;
-    font-family: 'Windows Regular';
-    
+    font-family: 'Windows';
+
 
     
 
