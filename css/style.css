@@ -72,7 +72,8 @@ li a:hover {
 
 .container {
     display: flex;
-    align-items:normal
+    align-items: center;
+    width: 100%;
 
 }
 
