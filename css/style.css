@@ -103,9 +103,9 @@ details:hover {
 }
 
 .mainbox0 {
-    width: 90%;
-    max-width: 600px;
-    margin: 2rem auto; /* centers the box with spacing from top */
+    width: 95%; /* Increase the width to make the box wider */
+    max-width: 800px; /* Adjust the max-width to fit the content */
+    margin: 4rem auto; /* Add more vertical spacing to push the box down */
     background-color: #c0c0c0;
     border: 2px solid #fff;
     border-top-color: #dfdfdf;
@@ -113,8 +113,9 @@ details:hover {
     border-right-color: #808080;
     border-bottom-color: #808080;
     box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
-    position: relative; /* Add this to position child elements absolutely */
-  }
+    position: relative; /* Keep this for the titlebar positioning */
+    padding-top: 2rem; /* Add padding to push the content down */
+}
   
   .titlebar {
     background: linear-gradient(to right, #000080, #1084d0); /* classic blue gradient */
@@ -142,7 +143,12 @@ details:hover {
   font-size: 10px;
   font-weight: bold;
   padding: 0;
+  color: #808080;
 }
+
+.wbutton:hover {
+    cursor: default; /* Prevents the cursor from changing on hover */
+  }
 .wbutton:active {
   border-top-color: #808080;
   border-left-color: #808080;
@@ -206,6 +212,7 @@ details:hover {
 .image1 {
     flex-shrink: 0;
     margin: 1rem;
+    margin-top: 2rem;
     border-radius: 5px;
     margin-top: 3rem;
     margin-right: 20px;
@@ -220,7 +227,8 @@ details:hover {
  margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.2;
-    color: white;
+    margin-top: 2rem;
+    color: #0e0e0e;
     margin-left: 20px;
     margin-right: 10px;
     word-wrap: break-word;
