@@ -169,11 +169,11 @@ details:hover {
 }
 
 .text1 {
-    margin-top: 10px;
+ margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.2;
-    color: white;
-    flex: 1;
+
+    margin-left: 20px;
     margin-right: 10px;
     word-wrap: break-word;
     
