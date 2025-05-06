@@ -121,8 +121,9 @@ details:hover {
     border-right-color: #808080;
     border-bottom-color: #808080;
     box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
-    position: relative; /* Keep this for the titlebar positioning */
+    position: absolute; /* Keep this for the titlebar positioning */
     padding-top: 2rem; /* Add padding to push the content down */
+    
 }
 
   .titlebar {
@@ -188,6 +189,7 @@ details:hover {
     background-blend-mode: overlay;
     height: fit-content;
     border-radius: 5px;
+    position: absolute; /* Allow the boxes to be moved */
 
 
 }
