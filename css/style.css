@@ -144,14 +144,9 @@ details:hover {
   font-weight: bold;
   padding: 0;
   color: #808080;
-<<<<<<< HEAD
     pointer-events: none; /* Disables clicking and interaction */
     cursor: default; /* Ensures the cursor does not change */
   }
-=======
-  cursor: default;
-}
->>>>>>> 329932b4a08d1cf2e2faa0406fc5c066c35c6daf
 
 .wbutton:hover {
     cursor: default; /* Prevents the cursor from changing on hover */
