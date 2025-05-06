@@ -179,6 +179,26 @@ details:hover {
   height: 32px;
 }
 
+.mainbox1 .now-playing {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.mainbox1 .now-playing .album-art {
+    width: 64px;
+    height: 64px;
+    border: 2px solid #fff;
+    box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
+}
+
+.mainbox1 .now-playing p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #000;
+}
+
 .mainbox1 {
 
     width: 95%; /* Increase the width to make the box wider */
