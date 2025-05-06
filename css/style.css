@@ -186,8 +186,8 @@ details:hover {
     margin: 4rem auto; /* Add more vertical spacing to push the box down */
     background-color: #c0c0c0;
     border: 2px solid #fff;
-    top: 345px;
-    left: -93px;
+    top: -313.0px;
+    left: 450px;
     border-top-color: #dfdfdf;
     border-left-color: #dfdfdf;
     border-right-color: #808080;
@@ -203,7 +203,9 @@ details:hover {
     max-width: 800px; /* Adjust the max-width to fit the content */
     margin: 4rem auto; /* Add more vertical spacing to push the box down */
     background-color: #c0c0c0;
-    border: 2px solid #fff;
+        border: 2px solid #fff;
+        top: 380px;
+    right: -671.4px;
     border-top-color: #dfdfdf;
     border-left-color: #dfdfdf;
     border-right-color: #808080;
