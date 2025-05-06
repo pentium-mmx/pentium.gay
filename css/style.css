@@ -153,15 +153,15 @@ details:hover {
 }
 
 .image1 {
-    height: fit-content;
-    background-color: #00000000;
     flex-shrink: 0;
     margin: 1rem;
     border-radius: 5px;
     margin-top: 3rem;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: rgba(27, 27, 27, 1);
+    margin-right: 20px;
+    border: 2px dashed white;
+      display: block;
+      max-width: 100%;
+      height: auto;
 
 }
 
@@ -169,7 +169,7 @@ details:hover {
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.2;
-    color: #ffffff;
+    color: white;
     margin-left: 20px;
     margin-right: 10px;
     word-wrap: break-word;
@@ -180,7 +180,7 @@ details:hover {
 
 h2 {
     background-color: rgba(27, 27, 27, 1);
-    color: #ffffff;
+    color: white;
     border-radius: 2px;
     margin: 0.5rem;
     text-indent: 10px;
