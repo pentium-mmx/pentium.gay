@@ -183,8 +183,8 @@ details:hover {
 h2 {
     background-color: rgba(27, 27, 27, 1);
     color: white;
+    flex: 1;
     border-radius: 2px;
-    margin: 0.5rem;
     text-indent: 10px;
     text-align: left;
     width: 100%;
