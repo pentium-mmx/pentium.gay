@@ -153,9 +153,8 @@ details:hover {
 }
 
 .image1 {
-    max-width: 260px;
     height: fit-content;
-    background-color: #f3f3f3;
+    background-color: #00000000;
     flex-shrink: 0;
     margin: 1rem;
     border-radius: 5px;
