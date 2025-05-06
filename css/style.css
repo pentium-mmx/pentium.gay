@@ -144,8 +144,14 @@ details:hover {
   font-weight: bold;
   padding: 0;
   color: #808080;
+<<<<<<< HEAD
+    pointer-events: none; /* Disables clicking and interaction */
+    cursor: default; /* Ensures the cursor does not change */
+  }
+=======
   cursor: default;
 }
+>>>>>>> 329932b4a08d1cf2e2faa0406fc5c066c35c6daf
 
 .wbutton:hover {
     cursor: default; /* Prevents the cursor from changing on hover */
@@ -240,12 +246,12 @@ details:hover {
 }
 
 h2 {
-    background-color: rgba(27, 27, 27, 1);
     color: #f3f3f3;
     border-radius: 2px;
     margin: 0.5rem 0;
     text-indent: 10px;
     text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     
 
