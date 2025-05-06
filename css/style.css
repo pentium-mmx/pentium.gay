@@ -130,25 +130,24 @@ details:hover {
 
 .wbutton {
   background-color: #c0c0c0;
-  border: 2px solid #fff;
-  border-top-color: #dfdfdf;
-  border-left-color: #dfdfdf;
-  border-right-color: #808080;
-  border-bottom-color: #808080;
-  font-family: 'Tahoma', sans-serif;
-  font-size: 12px;
-  width: 20px;
-  height: 20px;
+  border: 2px outset #fff;
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  font-weight: bold;
   padding: 0;
-  line-height: 1;
-  text-align: center;
-  cursor: default;
 }
 .wbutton:active {
   border-top-color: #808080;
   border-left-color: #808080;
   border-right-color: #dfdfdf;
   border-bottom-color: #dfdfdf;
+}
+
+.title-left {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
 }
 
 .mainbox1 {
