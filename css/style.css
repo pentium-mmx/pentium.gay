@@ -81,7 +81,7 @@ li a:hover {
 .container {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 90.2%;
 
 }
 
@@ -186,8 +186,8 @@ details:hover {
     margin: 4rem auto; /* Add more vertical spacing to push the box down */
     background-color: #c0c0c0;
     border: 2px solid #fff;
-    top: 200px;
-    left: 50px;
+    top: 345px;
+    left: -93px;
     border-top-color: #dfdfdf;
     border-left-color: #dfdfdf;
     border-right-color: #808080;
@@ -199,14 +199,18 @@ details:hover {
 }
 
 .mainbox2 {
-    max-width: 30rem;
-    margin: 3rem;
-    background-color: rgba(27, 27, 27, 0.25);
-    backdrop-filter: blur(5px);
-    background-blend-mode: overlay;
-    height: fit-content;
-    border-radius: 5px;
-
+    width: 95%; /* Increase the width to make the box wider */
+    max-width: 800px; /* Adjust the max-width to fit the content */
+    margin: 4rem auto; /* Add more vertical spacing to push the box down */
+    background-color: #c0c0c0;
+    border: 2px solid #fff;
+    border-top-color: #dfdfdf;
+    border-left-color: #dfdfdf;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
+    position: relative; /* Keep this for the titlebar positioning */
+    padding-top: 2rem; /* Add padding to push the content down */
 
 }
 .mainbox3 {
