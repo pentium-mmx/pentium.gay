@@ -85,9 +85,7 @@ li a:hover {
 
 }
 
-a {cursor:crosshair; border: 1px solid transparent; margin: 0px;}
-a:link {color:#0090e0;}
-a:visited {color:#0090e0;}
+a {cursor:crosshair; border: 1px solid transparent; margin: 0px; color: inherit; }
 a:hover {color:#181818;	border: 1px solid transparent; background-color:e6e6e6;}
 a:active {color:#fff;}
 
