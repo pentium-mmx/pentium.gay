@@ -24,6 +24,7 @@ body {
 .sidenav a:hover {color:#fff; background-color:#282828;}
 .sidenav a:active {color:#0090e0;}
 .sidenav>hr {border-style:dotted; border-width:1px 0 0 0; margin:8px 0 8px 0;}
+.sidenav a:visited {text-decoration: none;}
 
 ul {
     font-size: 0.9rem;
