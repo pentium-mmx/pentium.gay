@@ -150,6 +150,11 @@ details:hover {
   gap: 8px; 
 }
 
+.title-icon {
+  width: 16px;
+  height: 16px;
+}
+
 .mainbox1 {
 
     max-width: 40rem;
