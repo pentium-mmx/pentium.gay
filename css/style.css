@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Windows';
-    src: "css/Windows.ttf";
+    src: "css/W95FA.otf" format("opentype"),
+         url("css/W95FA.woff") format("woff"),
+         url("css/W95FA.woff2") format("woff2");
   }
 
 
@@ -11,7 +13,7 @@ html{
 
 
 body {
-    font-family: "Windows Regular", Monaco, monospace;
+    font-family: "W95FA", sans-serif;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -253,7 +255,7 @@ h2 {
     margin: 0.5rem 0;
     text-indent: 10px;
     text-align: left;
-    font-family: 'Windows';
+    font-family: 'W95FA', sans-serif;
 
 
     
