@@ -116,7 +116,7 @@ details:hover {
     position: relative; /* Keep this for the titlebar positioning */
     padding-top: 2rem; /* Add padding to push the content down */
 }
-  
+
   .titlebar {
     background: linear-gradient(to right, #000080, #1084d0); /* classic blue gradient */
     color: white;
@@ -144,16 +144,19 @@ details:hover {
   font-weight: bold;
   padding: 0;
   color: #808080;
+  cursor: default;
 }
 
 .wbutton:hover {
     cursor: default; /* Prevents the cursor from changing on hover */
   }
+
 .wbutton:active {
   border-top-color: #808080;
   border-left-color: #808080;
   border-right-color: #dfdfdf;
   border-bottom-color: #dfdfdf;
+  cursor: default;
 }
 
 .title-left {
@@ -170,7 +173,6 @@ details:hover {
 .mainbox1 {
 
     max-width: 40rem;
-
     margin: 3rem;
     background-color: rgba(27, 27, 27, 0.25);
     backdrop-filter: blur(5px);
